@@ -10,7 +10,7 @@ public class ClassesAndObjects {
         System.out.println("Name : "+st.Name);
 
         //Setting roll number
-        st.setRollNo(19);
+        st.setRollNo(18);
         System.out.println("Roll Number : "+st.RollNo);
 
         //Calculating Percentage

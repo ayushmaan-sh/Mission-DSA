@@ -1,14 +1,17 @@
 package MissionDSA.ObjectOrientedProgramming;
-
 public class GettersAndSetters {
     public static void main(String[] args) {
         Student st2 = new Student();
+        //Name
         st2.setName("Rahul");
         System.out.println("Name : "+st2.getName());
+        //Class
         st2.setClass(12);
         System.out.println("Class : " + st2.getClas());
+        //Roll number
         st2.setRollNo(500257);
         System.out.println("Roll Number : "+st2.getRollNo());
+        //CGPA
         st2.calPercentage(71,75,74,85,82);
         System.out.println("CGPA : "+st2.getPercentage());
     }
@@ -17,7 +20,6 @@ public class GettersAndSetters {
         int Class , RollNo;
         float cgpa;
         String Name;
-
          int getClas(){              //Getter
             return this.Class;
         }
@@ -30,7 +32,6 @@ public class GettersAndSetters {
         String getName(){
              return this.Name;
         }
-
       void setName(String newName){
           Name = newName;
       }
@@ -44,4 +45,3 @@ public class GettersAndSetters {
           cgpa = (phy+chem+maths+ped+eng) / 5;
       }
     }
-

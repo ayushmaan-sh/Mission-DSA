@@ -6,7 +6,7 @@ package MissionDSA.Recursion;
 public class Intro {
 
     public static void printN(int n){
-        if(n ==1){
+        if(n ==1){          //This condition ios the base case
             System.out.println(n);
             return;
         }

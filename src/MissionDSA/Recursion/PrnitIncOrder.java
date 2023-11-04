@@ -3,7 +3,7 @@ package MissionDSA.Recursion;
 public class PrnitIncOrder {
 
     public static void printInc(int n){
-        // Base Case
+        // Base Case of this recursion function
         if(n==1){
             System.out.print(n+" ");
             return;

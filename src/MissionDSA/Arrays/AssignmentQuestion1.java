@@ -1,5 +1,8 @@
 package MissionDSA.Arrays;
 
+//DSA - Revising Arrays by solving baasic questions.
+// Explanation - Read caption.
+
 public class AssignmentQuestion1 {
 
     public static boolean AssignQues(int arr[]){
